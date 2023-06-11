@@ -1,0 +1,44 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   	
+	
+}
+a{
+  list-style:none;  	
+}
+ul{
+  text-decortation:none;	
+}
+#main-area{
+ width:1200px;
+ height:176px;
+ float:left;	
+}
+.header{
+width:1200px;
+height:176px;
+float:left;
+}
+.logo{
+width:600px;
+height:176px;
+float:left;
+	
+}
+.menu-top{
+width:600px;
+height:176px;
+float:left;
+
+	
+}
+.menu-top ul li {
+	list-style:none;
+	
+
+}
+
+
+
+

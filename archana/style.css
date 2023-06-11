@@ -1,0 +1,231 @@
+*{
+  padding: 0px;
+  margin: 0px;
+
+}
+
+ul{
+   list-style: none;
+       
+}
+a{
+    text-decoration:none;
+}
+#main-area{
+     width:980px;
+     height:auto;
+     margin:0 auto;
+     
+}
+.header{
+      width:980px;
+      height:143px;
+      float: left;
+
+}
+.logo{
+     width:290px;
+     height:auto;
+     float:left;
+     padding-top:27px;
+
+}
+.top-menu{
+    width:690px;
+    height:auto;
+    float:left;
+    margin-top:95px; 
+}
+.top-menu ul li{
+   float:left;
+}
+.top-menu ul li a{
+    font-family:Arial;
+    font-size:16px;
+    font-weight: normal;
+    color:#000;
+    padding:10px 22px 10px 22px;
+    background-size: 100% 100%;
+    background-position: 0 -100px;
+    transition: 0.5s ease;
+    
+      
+}
+.top-menu ul li a:hover, .top-menu ul li a.active{
+     background: url(../archana/images/border.png)  no-repeat;
+
+}
+.content-area{
+   width:980px;
+   height:auto;
+   float:left;
+
+}
+.content-area-left{
+    width:720px;
+    height:auto;
+    float:left;
+}
+.content-area-left-top{
+    width:698px;
+    height:629px;
+    float:left;
+    border:2px solid #158dae;
+    border-radius: 10px;
+    margin-top:20px;
+}
+.content-area-left-top h1{
+    font-family:Rockwell;
+    font-size:20px;
+    font-weight: normal;
+    color:#d2d2d2;
+    background: linear-gradient(#141414,#9c9c9c);
+    border-radius:10px 10px 0 0;
+    line-height: 52px;
+    padding-left:18px;
+
+
+}
+.content-area-left-top strong{
+    font-family:myraid pro;
+    font-size:15px;
+    font-weight: normal;
+    color:#000;
+    padding: 17px 0 17px 10px;
+    display: block;
+    
+
+}
+.content-area-left-top img{
+   
+    margin-left: 15px;
+
+}
+.content-area-left-top p{
+    font-family:myraid pro;
+    font-size:15px;
+    color:#000;
+    padding: 17px 0 17px 10px;
+    
+    
+}
+.content-area-left-top a{
+    color:#000;
+    float:right;
+    padding-top:45px;
+}
+.content-area-right{
+    width:252px;
+    height:auto;
+    float:left;
+}
+.content-area-right input{
+    width:205px;
+    height:37px;
+    float:left;
+    border-radius:5px 0 0 5px;
+    border-right:none;
+    border: 2px solid #000;
+    margin-bottom:23px;
+}
+.content-area-right input[type="submit"]{
+    width:41px;
+    height:40px;
+    float:left;
+    border-radius:0px 5px 5px 0px;
+    border: 2px solid #000;
+    background:#5dbdba url(../archana/images/search.png) center no-repeat;
+    font-size: 0px;
+ 
+}
+.content-area-right h1{
+    font-family:myraid pro;
+    font-size:24px;
+    color:#000; 
+    font-weight: normal;
+}
+.content-area-right ul li a{
+    font-family:Arial;
+    font-size:16px;
+    color:#000; 
+    padding:16px 0px 18px 35px;
+    display: block;
+    background: url(../archana/images/arrow.png) left no-repeat;
+    transition: 0.5s; 
+
+}
+.content-area-right ul li a:hover,.content-area-right ul li a.active{
+    background: url(../archana/images/arrow2.png)left no-repeat;
+}
+.content-area-right h1{
+    font-family:BauerBodni Blk BT;
+    font-size:24px;
+    color:#000; 
+    font-weight: normal;
+}
+
+.content-area-right strong{
+    font-family:myraid pro;
+    font-size:18px;
+    color:#000; 
+    font-weight: normal;
+    margin-top:20px;
+    display: block;
+}
+.content-area-right p{
+    font-family:myraid pro;
+    font-size:13px;
+    color:#000; 
+    padding:13px 0 15px 0;
+}
+.footer{
+    width:100%;
+    height:300px;
+    float:left;
+    background: #000;
+    margin-top:25px;
+}
+.gallery{
+    width:490px;
+    height:260px;
+    float:left;
+}
+.gallery h1{
+    font-family:myraid pro;
+    font-size:24px;
+    color:#999999;
+    padding:25px 0px;
+
+}
+.gallery ul li{
+    float:left;
+    margin:2px 1px;
+    display: block;
+}
+.Service{
+    width:224px;
+    height:auto;
+    float:left;
+    margin-left: 15px;
+
+}
+.Service h1{
+    font-family:myraid pro;
+    font-size:24px;
+    color:#999999;
+    padding:25px 0px;
+}
+.Service p{
+    font-family:myraid pro;
+    font-size:14px;
+    color:#999999;  
+    text-align: justify;
+}
+.line{
+    width:100%;
+    height:3px;
+    background:#fff;
+    margin-top:5px;
+    float:left;
+}
+
